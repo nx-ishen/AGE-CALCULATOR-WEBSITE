@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="age.css">
+    <link rel="stylesheet" href="age.js">
+</head>
+
+<body>
+    <!-- RIGHT BLUE SHAPE -->
+    <div class="right-blue-shape">
+
+    </div>
+    <!-- FOR THE BLUE SHAPE PARAGRAPH  -->
+    <div id="para">
+        <h4>
+            Let's CaLculate <br> Your Age!
+        </h4>
+    </div>
+     <!-- for emoji  -->
+        <div id="emoji">
+            😀
+        </div>
+    <!-- calculator white card in which all the options will exist -->
+    <div class="calculator-card">
+        <!-- MAIN HEADING 'AGE CALCULATOR' -->
+        <h1>Age Calculator</h1>
+        <!-- ENTER YOUR AGE -->
+        <!-- FOR SELECTING THE AGE -->
+        <div class="input-group">
+            <label for="dob">Enter Date of Birth:</label>
+            <input type="date" id="dob">
+        </div>
+        <!-- LAST BUTTON FOR CALCULATING -->
+        <button id="calc-btn">CaLculate Age</button>
+        <!-- FOR THE LAST CALCULATED AGE -->
+        <div id="result-box" class="hidden">
+            <!-- TEXT WHICH WILL BE VISIBLE ON THE TOP AFTER CALCULATING -->
+            <p>You Are Of!</p>
+            <div id="age-output">--</div>
+            <p id="detail-output"></p>
+        </div>
+    </div>
+
+    <script src="age.js"></script>
+
+</body>
+
+</html>
